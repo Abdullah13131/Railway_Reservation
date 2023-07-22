@@ -1,0 +1,18 @@
+.banner {
+    background-image: url("/img/img1.jpg");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:600px) {
+    table td {
+        font-size: small;
+    }
+    td #book-button {
+        display: none;
+    }
+}

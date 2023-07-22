@@ -1,0 +1,61 @@
+.banner {
+    background-image: url("/img/img1.jpg");
+    padding-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lg-out:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.edit-btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.form div.success input {
+    border-color: rgb(44, 214, 101);
+}
+
+.form div.failure input {
+    border-color: rgb(214, 55, 44);
+}
+
+.form div.failure input:active {
+    box-shadow: none;
+}
+
+.form div small {
+    visibility: hidden;
+    position: absolute;
+    left: 60px;
+    margin-top: 50px;
+}
+
+.form div.failure small {
+    color: rgb(214, 55, 44);
+    visibility: visible;
+}
+
+@media (max-width:600px) {
+    td a {
+        display: none;
+    }
+}

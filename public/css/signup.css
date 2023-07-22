@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #696969;
+}
+
+#background {
+    opacity: 0.7;
+    position: absolute;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.top,
+.bottom,
+.middle {
+    border-radius: 6px !important;
+    border: 3px solid #ccc;
+}
+
+.about-btn {
+    margin: 2%;
+}
+
+#sign-up-img {
+    width: 30px;
+    height: 25px;
+}
+
+
+/* Form Validation */
+
+input {
+    display: block;
+    padding: 8px 16px;
+    margin: 10px auto;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+p {
+    opacity: 0;
+    height: 0;
+    margin: 0 10px;
+}
+
+#Login-ID {
+    opacity: 1;
+}
+
+.valid-field {
+    border: 3px solid #82BB41 !important;
+}
+
+.invalid-field {
+    border: 3px solid #D3212D !important;
+}
+
+.valid-field,
+.invalid-field {
+    border-radius: 10px;
+}
+
+.invalid-field+p {
+    font-weight: bold;
+    text-align: center;
+    color: #D3212D;
+    opacity: 1;
+    height: auto;
+}
+
+.container {
+    position: relative;
+}
+
+.signup-content {
+    margin-top: 10%;
+    padding: 10%;
+    border-radius: 5%;
+    position: relative;
+    background-color: white;
+    z-index: 970;
+}
+
+.signup-content input[type=submit] {
+    background: -webkit-linear-gradient(to right, #636363, #939393);
+    background: linear-gradient(to right, #606060, #939393);
+    width: 100%;
+}
+
+.signup-content input {
+    display: inline;
+}
+
+.form div.success input {
+    border-color: rgb(44, 214, 101);
+}
+
+.form div.failure input {
+    border-color: rgb(214, 55, 44);
+}
+
+.form div.failure input:active {
+    box-shadow: none;
+}
+
+.form div small {
+    visibility: hidden;
+}
+
+.form div.failure small {
+    color: rgb(214, 55, 44);
+    visibility: visible;
+}
+
+@media(max-width:600px) {
+    #background {
+        height: 980px;
+    }
+}
+
+#background img {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.signup-content {
+    margin-top: 10%;
+    padding: 10%;
+    border-radius: 5%;
+    position: relative;
+    background-color: white;
+    z-index: 970;
+}
+
+.signup-content input[type=submit] {
+    background: -webkit-linear-gradient(to right, #636363, #939393);
+    background: linear-gradient(to right, #606060, #939393);
+    width: 100%;
+}
+
+.signup-content input {
+    display: inline;
+}
+
+.form div.success input {
+    border-color: rgb(44, 214, 101);
+}
+
+.form div.failure input {
+    border-color: rgb(214, 55, 44);
+}
+
+.form div.failure input:active {
+    box-shadow: none;
+}
+
+.form div small {
+    visibility: hidden;
+}
+
+.form div.failure small {
+    color: rgb(214, 55, 44);
+    visibility: visible;
+}

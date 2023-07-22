@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background-image: url("/img/img1.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.heading {
+    font-weight: bold;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    /* line-height: 45px; */
+    color: #30333D;
+}
+
+.banner h4 {
+    color: grey;
+    font-size: 40px;
+}
+
+#radio {
+    font-size: 17px;
+}
+
+img {
+    border-radius: 10%;
+}
+
+.search-form button {
+    margin-top: 40px;
+}
+
+.steps p {
+    color: grey;
+}
+
+.visit_img img {
+    height: 200px;
+    width: 270px;
+}
+
+.form div input[type=submit] {
+    display: block;
+    width: 100%;
+}
+
+.form div.success input {
+    border-color: rgb(44, 214, 101);
+}
+
+.form div.failure input {
+    border-color: rgb(214, 55, 44);
+}
+
+.form div.failure input:active {
+    box-shadow: none;
+}
+
+.form div small {
+    visibility: hidden;
+}
+
+.form div.failure small {
+    color: rgb(214, 55, 44);
+    visibility: visible;
+}

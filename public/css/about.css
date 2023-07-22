@@ -1,0 +1,64 @@
+/* HTML Elements*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+hr {
+    width: 70% !important;
+    margin: 100px auto !important;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+
+/* About Us Section */
+
+.about-btn {
+    margin: 2%;
+}
+
+#about-us p {
+    line-height: 2;
+    text-align: center;
+}
+
+#about-us h1 {
+    margin: 3%;
+    font-size: 3em;
+}
+
+#about {
+    position: relative;
+    margin: 5% 2%;
+}

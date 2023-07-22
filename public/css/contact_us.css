@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Sections */
+
+.white-section {
+    background-color: white;
+}
+
+
+/* Contact Us Section */
+
+.container {
+    background: #FFFFFF;
+    width: 900px;
+    height: 650px;
+    margin: 10% auto;
+    position: relative;
+}
+
+.contact-form {
+    width: 53%;
+    margin: auto;
+}
+
+.title {
+    font-size: 2.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #242424;
+    margin: 5% 10%;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 5% 5% 8%;
+    line-height: 1.8;
+}
+
+textarea {
+    width: 465px;
+    padding: 3% 5%;
+    margin: 2% 4%;
+    color: #242424;
+    border: 1px solid #B7B7B7;
+    border-radius: 4px;
+    /* outline: none !important;
+    box-sizing: border-box; */
+}
+
+#num_of_chars {
+    font-weight: 700;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon {
+    padding: 5px;
+    background: #f8667c;
+    color: black;
+    min-width: 40px;
+    /* text-align: center; */
+    border-radius: 10px;
+    margin: 2% 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #242424;
+}
+
+.btn-send {
+    margin: 5%;
+    margin-bottom: 100px;
+    padding: 7px 30px;
+}
+
+.btn-send:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+input {
+    padding: 3% 5%;
+    margin: 2% 4%;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+.valid-field {
+    border: 3px solid #82BB41 !important;
+}
+
+.invalid-field {
+    border: 3px solid #D3212D !important;
+}
+
+.valid-field,
+.invalid-field {
+    border-radius: 10px;
+}
+
+.form div.success input {
+    border-color: rgb(44, 214, 101);
+}
+
+.form div.failure input {
+    border-color: rgb(214, 55, 44);
+}
+
+.form div.failure input:active {
+    box-shadow: none;
+}
+
+.form div small {
+    visibility: hidden;
+}
+
+.form div.failure small {
+    color: rgb(214, 55, 44);
+    visibility: visible;
+}

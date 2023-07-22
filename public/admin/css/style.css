@@ -1,0 +1,236 @@
+.bg-dark {
+    background-color: #153d61 !important;
+}
+
+.bg-darker {
+    background-color: #08223a !important;
+}
+
+.main-fg-color {
+    color: #EAE8FE !important;
+}
+
+body {
+    background-color: #EAE8FE !important;
+    margin: 0;
+}
+
+.wrapper {
+    margin-top: 56px;
+    width: 100%;
+}
+
+
+/* Mobile View Sidebar */
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 56px auto auto;
+    width: 250px;
+    transition: all ease 0.25s;
+    transform: translateX(-70%);
+    z-index: 1000;
+}
+
+.nav-link:hover {
+    background-color: #08223a !important;
+}
+
+.nav-item .active {
+    background-color: #08223a !important;
+}
+
+.side-bar-text {
+    display: none;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.side-bar-icon {
+    font-size: 32px;
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+    margin-left: 185px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.25s;
+    padding: 25px;
+}
+
+.side-menu.active {
+    transform: translateX(0);
+}
+
+.content {
+    width: 100%;
+    margin-left: 75px;
+    transition: all ease 0.25s;
+}
+
+#overlay {
+    position: fixed;
+    /* Sit on top of the page content */
+    display: none;
+    /* Hidden by default */
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(3, 3, 37, 0.5);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
+    transition: all ease 0.25s;
+}
+
+
+/* Dropdown */
+
+.dropdown-menu,
+.dropdown-item {
+    background-color: #EAE8FE !important;
+}
+
+
+/* Header */
+
+.header {
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.header h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Buttons */
+
+.btn-wide {
+    width: 100%;
+}
+
+.btn-dark {
+    background-color: #153d61;
+}
+
+.btn-dark:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+
+/* Cards */
+
+.card-body {
+    text-align: center;
+}
+
+.card-body>a {
+    background-color: #FF7C1F;
+    border: none;
+    width: 80%;
+    padding: 10px;
+}
+
+.card-body>a:hover {
+    background-color: #153d61;
+}
+
+.card-title>i {
+    text-align: center;
+    font-size: 120px !important;
+    height: 120px !important;
+    width: 120px !important;
+    color: #153d61 !important;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-edit,
+.btn-delete {
+    display: inline-block;
+}
+
+.btn-delete {
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D 51%, #D31027 100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+}
+
+.btn-delete:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.modal-img {
+    width: 60%;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+    .side-menu {
+        transform: translateX(0);
+    }
+    .content {
+        margin-left: 250px;
+    }
+    .side-bar-text {
+        display: inline-flex;
+        justify-content: center;
+    }
+    .side-bar-icon {
+        margin-left: 0;
+    }
+}
+
+
+/* 
+Forms
+*/
+
+.form-group {
+    text-align: left;
+}
+
+
+/* @media (max-width: 750px) {
+    .btn-edit,
+    .btn-delete {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .btn-edit>span,
+    .btn-delete>span {
+        visibility: hidden;
+    }
+} */
